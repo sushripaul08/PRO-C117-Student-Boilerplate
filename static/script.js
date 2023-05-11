@@ -3,12 +3,14 @@ $(document).ready(function(){
     console.log('Ready')
 
     //  Fetch the current date and update it in the DOM
+    var date = new Date()
+    let display_date = "Date:" + date.toLocaleDateString()
 
 
 
 
     //  write an event, when Submit button is clicked
-    $('').click(function(){
+    $('/').click(function(){
 
         //  get the text value from the textarea using the 'val()' method
         let text_value = $('').val()
